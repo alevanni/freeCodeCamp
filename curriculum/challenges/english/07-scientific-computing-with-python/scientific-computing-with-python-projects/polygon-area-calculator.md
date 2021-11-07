@@ -23,6 +23,7 @@ In this project you will use object oriented programming to create a Rectangle c
 ### Rectangle class
 
 When a Rectangle object is created, it should be initialized with `width` and `height` attributes. The class should also contain the following methods:
+
 - `set_width`
 - `set_height`
 - `get_area`: Returns area (`width * height`)
@@ -42,6 +43,7 @@ The Square class should be able to access the Rectangle class methods but should
 Additionally, the `set_width` and `set_height` methods on the Square class should set both the width and height.
 
 ### Usage example
+
 ```py
 rect = shape_calculator.Rectangle(10, 5)
 print(rect.get_area())
@@ -61,7 +63,9 @@ rect.set_height(8)
 rect.set_width(16)
 print(rect.get_amount_inside(sq))
 ```
+
 That code should return:
+
 ```
 50
 26
